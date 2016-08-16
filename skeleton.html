@@ -1,0 +1,68 @@
+<head>
+  <title>General Assembly Account Creation</title>
+</head>
+<body>
+  <img src="general_assembly_logo.png" />
+
+  <h1>General Assembly Account Creation</h1>
+
+  <p>Welcome to the General Assembly. General Assembly is a global
+  institution training people all over the world in today's top
+  technologies.</p>
+
+  <p>Please fill out the information below to create your General Assembly
+  account. Let us know what city you're in and what course
+  you're taking. This list is for all students. Please tell us what
+  city you're in and whether you're taking the Immersive User Experience (UX)
+  course or the Immersive Web Development course.</p>
+
+  <form action="success.html" method="GET">
+    City:
+      <select>
+        <option value="Hong Kong">Hong Kong</option>
+        <option value="London">London</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="New York">New York</option>
+        <option value="Portland">Portland</option>
+        <option value="San Fran">San Francisco</option>
+        <option value="Seattle">Seattle</option>
+        <option value="Singapore">Singapore</option>
+      </select><br>
+
+
+    <p>Course:
+      <label>
+        <input type="radio" name="course" value="UX">UX
+      </label>
+      <label>
+        <input type="radio" name="course" value="Web Dev" checked>Web Dev
+      </label></p>
+
+    <p>
+      <label for="name">Name:</label>
+      <input id="name" type="text"><br>
+    </p>
+
+    <p>
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="email"><br>
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="password"><br>
+    </p>
+
+    <p>
+      <label>
+        <input type="checkbox" name="subscribe" checked>
+        Yes, subscribe me to the General Assembly student newsletter
+      </label>
+    </p>
+
+    <label>
+      <input type="submit" value="Subscribe">
+    </label>
+
+  </form>
+</body>
